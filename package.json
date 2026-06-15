@@ -1,0 +1,48 @@
+{
+  "name": "snowdoc-mcp",
+  "version": "1.0.0",
+  "description": "AI-powered SQL & Snowflake documentation generator. Upload SQL or connect live to Snowflake — get instant column dictionaries, data lineage, business summaries, and export to Markdown, Word (.docx) or Confluence.",
+  "main": "index.js",
+  "bin": {
+    "snowdoc-mcp": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "mcp",
+    "snowflake",
+    "sql",
+    "documentation",
+    "data-engineering",
+    "data-lineage",
+    "confluence",
+    "sharepoint",
+    "dbt",
+    "column-dictionary",
+    "data-catalog",
+    "mcp-server"
+  ],
+  "author": "Ruthvik",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_GITHUB_USERNAME/snowdoc-mcp.git"
+  },
+  "homepage": "https://github.com/YOUR_GITHUB_USERNAME/snowdoc-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/YOUR_GITHUB_USERNAME/snowdoc-mcp/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.104.2",
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "axios": "^1.18.0",
+    "docx": "^9.7.1",
+    "js-yaml": "^4.2.0",
+    "snowflake-sdk": "^2.4.3"
+  }
+}
